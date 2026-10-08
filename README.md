@@ -1,4 +1,4 @@
-# Neon Garden
+Design blog and demo video on Notion# Neon Garden
 
 
 <img width="360" height="640" alt="Project demonstration on the TTGO T-Display" src="https://github.com/user-attachments/assets/acd0f774-4db6-4a92-b4bb-a72422b39b74" />
@@ -60,8 +60,8 @@ Edit BLOOM_COUNT to change the number of blooms, PALETTE to change their colors,
 
 ## Visual and installation documentation
 
-**[ADD A DEMO GIF, CLOSE-UP PHOTO, AND ANY AVAILABLE INSTALLATION PHOTO.]**
+**[ADD A DEMO GIThe demo GIF is embedded above, and the demo video is embedded in the Notion blog.
 
-**[DESCRIBE THE ACTUAL MOUNTING AND POWER ARRANGEMENT.]**
+**[ADD A CLOSE-UP PHOTO AND ANY AVAILABLE INSTALLATION PHOTO.]** ACTUAL MOUNTING AND POWER ARRANGEMENT.]**
 
 The playable demo video belongs in the linked Notion blog. Use actual footage of this sketch. For images requiring an added background, use white as requested by the course checklist.
