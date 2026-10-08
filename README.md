@@ -1,8 +1,12 @@
 # Neon Garden
 
+
+<img width="360" height="640" alt="Project demonstration on the TTGO T-Display" src="https://github.com/user-attachments/assets/acd0f774-4db6-4a92-b4bb-a72422b39b74" />
+
+
 A generative artwork for the original ESP32 TTGO T-Display: six neon blooms expand over a star field, restarting with new positions, speeds, sizes, and color combinations.
 
-**[ADD DEMO GIF HERE — suggested path: media/neon-garden.gif]**
+
 
 [Design blog and video placeholder on Notion](https://www.notion.so/3f35804c3855802c9766f99a3ee09156)
 
