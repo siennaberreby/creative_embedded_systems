@@ -1,14 +1,10 @@
-Design blog and demo video on Notion# Neon Garden
-
+# Neon Garden
 
 <img width="360" height="640" alt="Project demonstration on the TTGO T-Display" src="https://github.com/user-attachments/assets/acd0f774-4db6-4a92-b4bb-a72422b39b74" />
 
-
 A generative artwork for the original ESP32 TTGO T-Display: six neon blooms expand over a star field, restarting with new positions, speeds, sizes, and color combinations.
 
-
-
-[Design blog and video placeholder on Notion](https://www.notion.so/3f35804c3855802c9766f99a3ee09156)
+[Design blog and demo video on Notion](https://www.notion.so/3f35804c3855802c9766f99a3ee09156)
 
 ## Inspiration and design goals
 
@@ -29,7 +25,7 @@ This sketch targets the original board, not the T-Display S3. No external displa
 ## Files
 
 - [Arduino sketch](neon_garden/neon_garden.ino)
-- Add actual demo footage and photos to a folder named **media** when available.
+- The demo GIF is embedded above as a GitHub attachment.
 
 ## Setup and upload
 
@@ -60,8 +56,8 @@ Edit BLOOM_COUNT to change the number of blooms, PALETTE to change their colors,
 
 ## Visual and installation documentation
 
-**[ADD A DEMO GIThe demo GIF is embedded above, and the demo video is embedded in the Notion blog.
+The demo GIF is embedded above, and the demo video is embedded in the linked Notion blog.
 
-**[ADD A CLOSE-UP PHOTO AND ANY AVAILABLE INSTALLATION PHOTO.]** ACTUAL MOUNTING AND POWER ARRANGEMENT.]**
+**[ADD A CLOSE-UP PHOTO AND ANY AVAILABLE INSTALLATION PHOTO.]**
 
-The playable demo video belongs in the linked Notion blog. Use actual footage of this sketch. For images requiring an added background, use white as requested by the course checklist.
+**[DESCRIBE THE ACTUAL MOUNTING AND POWER ARRANGEMENT.]**
