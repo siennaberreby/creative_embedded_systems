@@ -16,7 +16,7 @@ Neon Garden expresses this inspiration through abstract color and movement. Expa
 
 - Original ESP32 TTGO T-Display with its built-in 135 × 240 TFT screen, used in landscape orientation.
 - USB data cable and computer for programming and power.
-- Compatible LiPo battery for unplugged display, if used.
+- Battery connected to the ESP32 for the enclosed installation.
 - Arduino IDE with the **esp32 by Espressif Systems** board package.
 - **TFT_eSPI by Bodmer**, configured with **Setup25_TTGO_T_Display.h**.
 
@@ -25,7 +25,7 @@ This sketch targets the original board, not the T-Display S3. No external displa
 ## Files
 
 - [Arduino sketch](neon_garden/neon_garden.ino)
-- The demo GIF is embedded above as a GitHub attachment.
+- The demo GIF and envelope photograph are embedded as GitHub attachments.
 
 ## Setup and upload
 
@@ -33,10 +33,10 @@ This sketch targets the original board, not the T-Display S3. No external displa
 2. Install **TFT_eSPI by Bodmer** through Library Manager.
 3. In the library’s **User_Setup_Select.h**, comment out the default include for **User_Setup.h** and enable **#include <User_Setups/Setup25_TTGO_T_Display.h>**. Keep only one display setup selected. See the [setup selector](https://github.com/Bodmer/TFT_eSPI/blob/master/User_Setup_Select.h). Recheck this selection after library updates.
 4. Download this repository and open **neon_garden/neon_garden.ino** in Arduino IDE.
-5. Connect the original TTGO T-Display using a USB data cable. Select its board profile and serial port. **[ADD THE EXACT BOARD PROFILE AND ANY NONDEFAULT UPLOAD SETTINGS USED.]**
+5. Connect the original TTGO T-Display using a USB data cable. Choose **ESP32 Dev Module** and the board’s serial port. Use the board profile’s default settings.
 6. Upload the sketch. It should display “NEON GARDEN,” expanding colored circles, gray stars, and “LAB 1 / randomly growing light.” No button press is needed to start.
 
-**Tested environment:** [ADD ARDUINO IDE, ESP32 BOARD PACKAGE, AND TFT_eSPI VERSIONS USED FOR YOUR SUCCESSFUL UPLOAD.]
+**Installed library environment:** ESP32 board package 3.3.12 and TFT_eSPI 2.5.43, with Setup25_TTGO_T_Display.h enabled. These versions were checked on the development computer; they are not a claim of a new upload test.
 
 ## How it works
 
@@ -56,8 +56,10 @@ Edit BLOOM_COUNT to change the number of blooms, PALETTE to change their colors,
 
 ## Visual and installation documentation
 
-The demo GIF is embedded above, and the demo video is embedded in the linked Notion blog.
+The demo GIF is embedded above, and the [demo video](https://www.youtube.com/watch?v=eXNiJIZaBdE) is embedded in the linked Notion blog.
 
-**[ADD A CLOSE-UP PHOTO AND ANY AVAILABLE INSTALLATION PHOTO.]**
+<img width="540" alt="Hand-decorated envelope enclosing the ESP32, with a rectangular opening for the display" src="https://github.com/user-attachments/assets/0cbc033d-982a-48be-8020-ba776858dd0e" />
 
-**[DESCRIBE THE ACTUAL MOUNTING AND POWER ARRANGEMENT.]**
+The ESP32 is placed inside a hand-decorated paper envelope, with the display aligned behind a rectangular opening. A battery plugged into the ESP32 powers the enclosed device. The envelope’s drawings include cooking utensils, cheese, wine glasses, a French flag, and a rat, connecting the physical presentation to my French background, my love of cooking, and Ratatouille.
+
+This photograph documents the enclosure design with the device inside. It is the available installation photograph; it does not show the device hanging in the exhibition space.
