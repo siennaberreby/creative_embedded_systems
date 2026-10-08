@@ -1,8 +1,4 @@
-/* Lab 1: Neon Garden
-   Original TTGO T-Display (ESP32, 135 x 240), TFT_eSPI Setup25.
-   Randomly positioned, colored blooms expand across a star field.
-   Each bloom gets new parameters, so the animation is not a fixed cycle.
-*/
+
 #include <Arduino.h>
 #include <TFT_eSPI.h>
 #include <esp_system.h>
