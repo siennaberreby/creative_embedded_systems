@@ -1,4 +1,4 @@
-# Neon Garden
+# Module 1
 
 <img width="360" height="640" alt="Project demonstration on the TTGO T-Display" src="https://github.com/user-attachments/assets/acd0f774-4db6-4a92-b4bb-a72422b39b74" />
 
